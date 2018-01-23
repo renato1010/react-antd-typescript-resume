@@ -1,3 +1,9 @@
 ._Timeline {
   padding: 20px 2em 20px 2em;
 }
+._Timeline ul {
+  padding-left: 20px;
+}
+._Timeline h3 {
+  text-align: left;
+}
