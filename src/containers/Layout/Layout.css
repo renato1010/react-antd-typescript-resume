@@ -1,0 +1,27 @@
+.Layout {
+  display: grid;
+  grid-template-columns: 2fr 3fr 2fr;
+  grid-template-rows: 250px 1fr;
+  grid-template-areas:
+    'header header header'
+    'timeline center skills';
+}
+
+.Layout .Header {
+  grid-area: header;
+  /* border: 1px solid tomato; */
+}
+
+.Layout .Timeline {
+  grid-column: timeline;
+  border: 1px solid lime;
+}
+
+.Layout .content {
+  grid-area: center;
+  border: 1px solid slateblue;
+}
+.Layout .skills {
+  grid-area: skills;
+  border: 1px solid orangered;
+}

@@ -1,16 +1,13 @@
 import * as React from 'react';
 import './App.css';
-// antd Button
-import { Button } from 'antd';
-
-// const logo = require('./logo.svg');
+import Layout from './containers/Layout/Layout';
 
 class App extends React.Component {
   render() {
     return (
-      <div className="App">
-        <Button type="primary">Button</Button>
-        <Button type="danger">Danger</Button>
+      <div>
+        <Layout />
+
       </div>
     );
   }
