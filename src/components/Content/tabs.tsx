@@ -1,10 +1,11 @@
 import * as React from 'react';
+import './tabs.css';
 
 export interface RolesProps {}
 
 export function Roles(props: RolesProps) {
   return (
-    <ul>
+    <ul className="_tabs">
       <li>
         Senior Frontend Engineer: take full ownership of projects, from napkin scribble to MVP
       </li>
@@ -23,7 +24,7 @@ export function Roles(props: RolesProps) {
 
 export function Responsabilities(props: RolesProps) {
   return (
-    <ul>
+    <ul className="_tabs">
       <li>
         Write clean, modular, extensible and testable code implementing the best breed of
         technologies. Promoter of best practices within team
