@@ -30,7 +30,6 @@ export function Responsabilities(props: RolesProps) {
         technologies. Promoter of best practices within team
       </li>
       <li>Transform wireframes/mockups into interactive engaging experiences </li>
-      <li>Researcher of feasible and performant technological solutions to drive innovation</li>
       <li>Getting involved in all phases of SDLC</li>
       <li>Crafting comprehensive application testing code</li>
       <li>Revamp existing app code to meet current security and functionality best practices</li>

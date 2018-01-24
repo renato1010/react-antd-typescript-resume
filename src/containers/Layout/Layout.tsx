@@ -18,7 +18,17 @@ export default class Layout extends React.Component<LayoutProps, object> {
           <Content />
         </div>
         <div className="skills">
-          <HardSkillPie imageUrl="retro" level={1} height={120}  />
+          <HardSkillPie
+            imageUrl={process.env.PUBLIC_URL + 'assets/images/github.svg'}
+            level={1}
+            title="github"
+            height={50}
+          />
+          <HardSkillPie
+            imageUrl={process.env.PUBLIC_URL + 'assets/images/github.svg'}
+            level={1}
+            height={50}
+          />
         </div>
       </div>
     );

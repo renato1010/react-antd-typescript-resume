@@ -28,13 +28,11 @@ export function HardSkillPie({
   };
   return (
     <div className="HardSkillPie">
-      <div>
+      <div className="img-container">
         <img src={imageUrl} alt="image" />
       </div>
-      <div>
-        <p>{title}</p>
-      </div>
-      <div>
+      <p style={{ margin: '0' }}>{title}</p>
+      <div className="pie-container">
         <Pie
           percent={levelMap[level]}
           subTitle={<p>{skillSubTitle}</p>}

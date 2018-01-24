@@ -3,6 +3,7 @@ import * as ReactDOM from 'react-dom';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 import './index.css';
+import 'ant-design-pro/dist/ant-design-pro.css';
 
 ReactDOM.render(
   <App />,
