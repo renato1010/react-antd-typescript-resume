@@ -1,12 +1,16 @@
 .HardSkillPie {
-  width: 12em;
-  height: 60px;
+  width: 15em;
+  height: 70px;
   display: grid;
   align-content: center;
   align-items: center;
   grid-template-columns: 40% 20% 40%;
+  border: 1px solid #b7cfe5;
 }
 .HardSkillPie .img-container {
+  display: grid;
+  justify-items: center;
+  align-items: center;
   height: 40px;
   padding: 5%;
 }
@@ -15,8 +19,11 @@
   height: 100%;
 }
 .pie-stat {
-  font-size: 0.6rem;
+  font-size: 0.7rem;
 }
 .pie-container {
   width: 100% !important;
+  display: grid;
+  justify-content: center;
+  align-items: center;
 }

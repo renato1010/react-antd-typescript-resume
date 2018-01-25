@@ -22,12 +22,12 @@ export default class Layout extends React.Component<LayoutProps, object> {
             imageUrl={process.env.PUBLIC_URL + 'assets/images/github.svg'}
             level={1}
             title="github"
-            height={50}
+            height={60}
           />
           <HardSkillPie
             imageUrl={process.env.PUBLIC_URL + 'assets/images/github.svg'}
             level={1}
-            height={50}
+            height={60}
           />
         </div>
       </div>

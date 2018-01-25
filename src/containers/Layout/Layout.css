@@ -25,8 +25,9 @@
   grid-area: skills;
   border: 1px solid orangered;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 250px));
-  grid-template-rows: repeat(auto-fill, 60px);
+  grid-gap: 5px;
+  grid-template-columns: repeat(auto-fit, 15em);
+  grid-template-rows: repeat(auto-fit, 80px);
   align-items: start;
   justify-content: center;
 }
