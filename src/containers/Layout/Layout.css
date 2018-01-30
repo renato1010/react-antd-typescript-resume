@@ -4,7 +4,7 @@
   grid-template-rows: 250px 1fr;
   grid-template-areas:
     'header header header'
-    'timeline center skills';
+    'timeline middle skills';
 }
 
 .Layout .Header {
@@ -18,16 +18,32 @@
 }
 
 .Layout .content {
-  grid-area: center;
+  grid-area: middle;
   border: 1px solid slateblue;
 }
 .Layout .skills {
-  grid-area: skills;
   border: 1px solid orangered;
-  display: grid;
+  grid-area: skills;
+  padding: 15px 0 0 10px;
+  /* display: grid;
   grid-gap: 5px;
   grid-template-columns: repeat(auto-fit, 15em);
   grid-template-rows: repeat(auto-fit, 80px);
   align-items: start;
-  justify-content: center;
+  justify-content: center; */
+}
+
+/* media queries */
+
+@media screen and (max-width: 600px) {
+  .Layout {
+    display: grid;
+    grid-template-columns: 1fr;
+    /* grid-template-rows: 250px 1fr; */
+    grid-template-areas:
+      'header'
+      'timeline'
+      'middle'
+      'skills';
+  }
 }

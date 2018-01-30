@@ -2,7 +2,7 @@ import * as React from 'react';
 import { Pie } from 'ant-design-pro/lib/Charts';
 import './HardSkillPie.css';
 
-type ExpertLevel = 1 | 2 | 3 | 4;
+export type ExpertLevel = 1 | 2 | 3 | 4;
 
 export interface HardSkillPieProps {
   imageUrl: string;
@@ -17,7 +17,7 @@ export function HardSkillPie({
   imageUrl,
   title,
   level,
-  skillSubTitle
+  skillSubTitle = ''
 }: HardSkillPieProps) {
   const levelMap: { [key: number]: number } = { 1: 25, 2: 50, 3: 75, 4: 100 };
   const skillMap: { [key: number]: string } = {
@@ -31,13 +31,18 @@ export function HardSkillPie({
       <div className="img-container">
         <img src={imageUrl} alt="image" />
       </div>
-      <p style={{ margin: '0' }}>{title}</p>
+      <div className="title">
+        <h4 style={{ margin: '0' }}>
+          {title}
+        </h4>
+      </div>
       <div className="pie-container">
         <Pie
           percent={levelMap[level]}
           subTitle={<p>{skillSubTitle}</p>}
           total={skillMap[level]}
           height={height}
+          animate={true}
         />
       </div>
     </div>

@@ -1,29 +1,59 @@
 .HardSkillPie {
-  width: 15em;
-  height: 70px;
+  width: 12em;
+  height: 80px;
   display: grid;
-  align-content: center;
-  align-items: center;
-  grid-template-columns: 40% 20% 40%;
+  /* align-content: center;
+  align-items: center; */
+  /* grid-template-columns: 35% 20% 45%; */
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 25% 75%;
+  grid-template-areas:
+    'title title'
+    'logo pie';
   border: 1px solid #b7cfe5;
 }
 .HardSkillPie .img-container {
   display: grid;
   justify-items: center;
+  align-self: stretch;
   align-items: center;
-  height: 40px;
-  padding: 5%;
+  grid-area: logo;
+  /* height: 50px; */
+  /* padding: 5%; */
 }
 
 .HardSkillPie img[alt='image'] {
-  height: 100%;
+  height: 80%;
+  max-width: 80%;
+}
+.HardSkillPie .title {
+  grid-area: title;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+.title h4 {
+  font-weight: bold;
 }
 .pie-stat {
   font-size: 0.7rem;
+  display: none;
 }
 .pie-container {
+  grid-area: pie;
+  /* display: grid;
+  justify-items: center;
+  align-items: center; */
   width: 100% !important;
-  display: grid;
-  justify-content: center;
-  align-items: center;
 }
+
+/* .HardSkillPie .antd-pro-charts--pie-pie .antd-pro-charts--pie-total {
+  position: absolute;
+  left: 50%;
+  top: -30%;
+  text-align: center;
+  height: auto;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+} */

@@ -1,0 +1,41 @@
+.HardSkillLine {
+  width: 12em;
+  height: 80px;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 40% 60%;
+  grid-template-areas:
+    'title'
+    'line';
+  border: 1px solid #b7cfe5;
+}
+
+/* .HardSkillLine .img-container {
+  display: grid;
+  justify-items: center;
+  align-self: stretch;
+  align-items: center;
+  grid-area: logo;
+}
+.HardSkillLine .img-container img[alt='image'] {
+  height: 80%;
+  max-width: 80%;
+} */
+
+.HardSkillLine .skill-title {
+  grid-area: title;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+.HardSkillLine .skill-title h4 {
+  font-weight: bold;
+}
+.HardSkillLine .skill-line {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  grid-area: line;
+  width: 100% !important;
+}

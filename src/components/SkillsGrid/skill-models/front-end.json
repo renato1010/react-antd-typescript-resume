@@ -1,0 +1,80 @@
+{
+  "data": {
+    "languages": [
+      {
+        "name": "HTML",
+        "years": 8,
+        "level": 100,
+        "image": "html5"
+      },
+      {
+        "name": "CSS",
+        "years": 8,
+        "level": 75,
+        "image": "css3"
+      },
+      {
+        "name": "JavaScript",
+        "years": 8,
+        "level": 90,
+        "image": "javascript"
+      },
+      {
+        "name": "TypeScript",
+        "years": 2,
+        "level": 80,
+        "image": "typescript"
+      },
+      {
+        "name": "Scss",
+        "years": 4,
+        "level": 75,
+        "image": "sass"
+      },
+      {
+        "name": "Less",
+        "years": 3,
+        "level": 50,
+        "image": "less"
+      }
+    ],
+    "frameworks": [
+      {
+        "name": "ExpressJS",
+        "years": 4,
+        "level": 80,
+        "image": "expressjs"
+      },
+      {
+        "name": "CSS",
+        "years": 8,
+        "level": 75,
+        "image": "css3"
+      },
+      {
+        "name": "JavaScript",
+        "years": 8,
+        "level": 90,
+        "image": "javascript"
+      },
+      {
+        "name": "TypeScript",
+        "years": 2,
+        "level": 80,
+        "image": "typescript"
+      },
+      {
+        "name": "Scss",
+        "years": 4,
+        "level": 75,
+        "image": "sass"
+      },
+      {
+        "name": "Less",
+        "years": 3,
+        "level": 50,
+        "image": "less"
+      }
+    ]
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "data": {
+    "languages": [
+      {
+        "name": "PHP",
+        "years": 8,
+        "level": 100,
+        "image": "php"
+      },
+      {
+        "name": "Node.JS",
+        "years": 4,
+        "level": 100,
+        "image": "nodejs-icon"
+      },
+      {
+        "name": "C#",
+        "years": 5,
+        "level": 75,
+        "image": "c-sharp"
+      },
+      {
+        "name": "PYTHON",
+        "years": 3,
+        "level": 75,
+        "image": "python"
+      }
+    ],
+    "frameworks": [
+      {
+        "name": "Express.JS",
+        "years": 4,
+        "level": 100,
+        "image": "express-js"
+      },
+      {
+        "name": "MEAN.JS",
+        "years": 3,
+        "level": 75,
+        "image": "mean-js"
+      },
+      {
+        "name": "Django",
+        "years": 3,
+        "level": 75,
+        "image": "django"
+      },
+      {
+        "name": "Laravel",
+        "years": 4,
+        "level": 75,
+        "image": "laravel"
+      },
+      {
+        "name": "ASP.NET MVC",
+        "years": 4,
+        "level": 75,
+        "image": "asp-net"
+      }
+    ],
+    "server-less": [
+      {
+        "name": "AWS Lambda",
+        "years": 1,
+        "level": 75,
+        "image": "aws-lambda"
+      },
+      {
+        "name": "Firebase",
+        "years": 2,
+        "level": 75,
+        "image": "firebase"
+      }
+    ]
+  }
+}
