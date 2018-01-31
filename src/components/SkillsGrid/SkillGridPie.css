@@ -1,3 +1,7 @@
+.SkillGridPie:not(:first-of-type) {
+  margin: 15px 0;
+}
+
 .SkillGrid {
   display: grid;
   grid-gap: 5px;

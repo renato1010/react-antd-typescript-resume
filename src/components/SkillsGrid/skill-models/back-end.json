@@ -71,6 +71,44 @@
         "level": 75,
         "image": "firebase"
       }
+    ],
+    "databases": [
+      {
+        "name": "MySQL",
+        "years": 8,
+        "level": 100,
+        "image": "mysql"
+      },
+      {
+        "name": "SQL Server",
+        "years": 4,
+        "level": 75,
+        "image": "ms-sql-server"
+      },
+      {
+        "name": "MongoDB",
+        "years": 4,
+        "level": 100,
+        "image": "mongodb"
+      },
+      {
+        "name": "Firebase",
+        "years": 2,
+        "level": 75,
+        "image": "firebase"
+      },
+      {
+        "name": "DynamoDB",
+        "years": 1,
+        "level": 80,
+        "image": "aws-dynamodb"
+      },
+      {
+        "name": "Cosmos DB",
+        "years": 1,
+        "level": 80,
+        "image": "cosmosdb"
+      }
     ]
   }
 }

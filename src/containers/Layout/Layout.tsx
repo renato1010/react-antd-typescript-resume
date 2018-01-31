@@ -9,8 +9,8 @@ import { SkillGridPie } from '../../components/SkillsGrid/SkillGridPie';
 // @ts-ignore
 import * as backend from '../../components/SkillsGrid/skill-models/back-end.json';
 // @ts-ignore
-import * as frontEndFrameworks from '../../components/SkillsGrid/skill-models/front-end.json';
-import { SkillGridLine } from '../../components/SkillsGrid/SkillGridLine';
+import * as frontend from '../../components/SkillsGrid/skill-models/front-end.json';
+// import { SkillGridLine } from '../../components/SkillsGrid/SkillGridLine';
 
 export interface LayoutProps {}
 
@@ -25,10 +25,13 @@ export default class Layout extends React.Component<LayoutProps, object> {
           <Content />
         </div>
         <div className="skills">
-        <SkillGridPie title="Backend Languages" skillSet={backend.data.languages}   />
-        <SkillGridLine title="Backend Frameworks" skillSet={backend.data.frameworks}   />
-        <SkillGridPie title="Server-Less" skillSet={backend.data['server-less']}   />
-
+          <SkillGridPie title="Backend Languages" skillSet={backend.data.languages} />
+          <SkillGridPie title="Backend Frameworks" skillSet={backend.data.frameworks} />
+          <SkillGridPie title="Server-Less" skillSet={backend.data['server-less']} />
+          <SkillGridPie title="Databases" skillSet={backend.data.databases} />
+          <SkillGridPie title="Angular Eco-System" skillSet={frontend.data['angular-ecosystem']} />
+          <SkillGridPie title="React Eco-System" skillSet={frontend.data['react-ecosystem']} />
+          <SkillGridPie title="FrontEnd others" skillSet={frontend.data['frontend-others']} />
         </div>
       </div>
     );

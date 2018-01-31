@@ -38,42 +38,94 @@
         "image": "less"
       }
     ],
-    "frameworks": [
+    "angular-ecosystem": [
       {
-        "name": "ExpressJS",
+        "name": "Angular",
+        "years": 4,
+        "level": 100,
+        "image": "angular"
+      },
+      {
+        "name": "Ionic",
         "years": 4,
         "level": 80,
-        "image": "expressjs"
+        "image": "ionic"
       },
       {
-        "name": "CSS",
-        "years": 8,
-        "level": 75,
-        "image": "css3"
-      },
-      {
-        "name": "JavaScript",
-        "years": 8,
-        "level": 90,
-        "image": "javascript"
-      },
-      {
-        "name": "TypeScript",
+        "name": "NativeScript",
         "years": 2,
         "level": 80,
-        "image": "typescript"
+        "image": "nativescript"
       },
       {
-        "name": "Scss",
-        "years": 4,
-        "level": 75,
-        "image": "sass"
+        "name": "NgRx",
+        "years": 1,
+        "level": 60,
+        "image": "ngrx"
+      }
+    ],
+    "react-ecosystem": [
+      {
+        "name": "React(16)",
+        "years": 2,
+        "level": 100,
+        "image": "react"
       },
       {
-        "name": "Less",
+        "name": "Redux",
+        "years": 2,
+        "level": 80,
+        "image": "redux"
+      },
+      {
+        "name": "React Native",
+        "years": 2,
+        "level": 80,
+        "image": "react-native"
+      },
+      {
+        "name": "ANTD",
+        "years": 1,
+        "level": 60,
+        "image": "antd"
+      },
+      {
+        "name": "Styled Cmps",
+        "years": 1,
+        "level": 40,
+        "image": "styled-components"
+      },
+      {
+        "name": "React-Router",
+        "years": 2,
+        "level": 80,
+        "image": "react-router"
+      }
+    ],
+    "frontend-others": [
+      {
+        "name": "PWA",
+        "years": 1,
+        "level": 80,
+        "image": "pwa"
+      },
+      {
+        "name": "Webpack",
         "years": 3,
-        "level": 50,
-        "image": "less"
+        "level": 80,
+        "image": "webpack"
+      },
+      {
+        "name": "Polymer",
+        "years": 1,
+        "level": 60,
+        "image": "polymer"
+      },
+      {
+        "name": "Gulp",
+        "years": 4,
+        "level": 100,
+        "image": "gulp"
       }
     ]
   }

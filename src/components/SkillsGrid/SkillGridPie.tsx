@@ -18,7 +18,7 @@ export function SkillGridPie(props: SkillGridPieProps) {
   const skills = props.skillSet;
 
   return (
-    <div>
+    <div className="SkillGridPie">
       <h3 style={{ fontWeight: 'bold' }}>{props.title}</h3>
       <div className="SkillGrid">
         {skills.map((skill: SkillLanguage) => (
