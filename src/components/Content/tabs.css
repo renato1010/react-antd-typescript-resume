@@ -2,8 +2,9 @@
   list-style: none;
 }
 ._tabs li::before {
+  font-size: 1.5rem;
   content: '\2022';
-  color: #F0F1F1;
+  color: #353C40;
   display: inline-block;
   width: 1em;
   margin-left: -1em;

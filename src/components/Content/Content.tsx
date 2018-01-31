@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { Card } from 'antd';
 import { Roles, Responsabilities } from './tabs';
+import { Contact } from './Contact';
 
 const tabList = [
   {
@@ -31,15 +32,19 @@ export class Content extends React.Component<
     this.setState({ [type]: key });
   }
   render() {
+    const _style = { width: '100%', backgroundColor: '#C0D8E528' };
     return (
       <div>
         <Card
-          style={{ width: '100%' }}
+          style={_style}
           title="Developer"
           tabList={tabList}
           onTabChange={(key: string) => this.onTabChange(key, 'key')}
         >
           {contentList[this.state.key]}
+        </Card>
+        <Card style={_style} title="Portfolio">
+          <Contact />
         </Card>
       </div>
     );

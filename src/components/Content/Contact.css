@@ -1,0 +1,36 @@
+.icon-grid {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: repeat(auto-fit, minmax(5em, 8em));
+  grid-template-rows: repeat(auto-fill, 80px);
+  align-items: start;
+  justify-content: space-between;
+}
+.icon-grid .icon-item {
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 25% 75%;
+  grid-template-areas:
+    'title'
+    'logo';
+  justify-items: center;
+  align-items: start;
+  border: 1px solid #b7cfe5;
+}
+.icon-item .item-title {
+  grid-area: title;
+  font-weight: bold;
+  color: #1890ff;
+}
+.icon-item .item-logo {
+  grid-area: logo;
+  display: grid;
+}
+.icon-grid .item-logo a {
+  height: 50px;
+  align-items: center;
+}
+.icon-item .item-logo img {
+  max-height: 90%;
+}

@@ -9,33 +9,31 @@
 
 .Layout .Header {
   grid-area: header;
+  background-color: #A0B4Bf28;
   /* border: 1px solid tomato; */
 }
 
 .Layout .Timeline {
   grid-column: timeline;
-  border: 1px solid lime;
+  /* border: 1px solid lime; */
+  background-color: #d5f0ff28;
 }
 
 .Layout .content {
   grid-area: middle;
-  border: 1px solid slateblue;
+  /* border: 1px solid slateblue; */
+  background-color: #C0D8E528;
 }
 .Layout .skills {
-  border: 1px solid orangered;
+  /* border: 1px solid orangered; */
   grid-area: skills;
   padding: 15px 0 0 10px;
-  /* display: grid;
-  grid-gap: 5px;
-  grid-template-columns: repeat(auto-fit, 15em);
-  grid-template-rows: repeat(auto-fit, 80px);
-  align-items: start;
-  justify-content: center; */
+  background-color: #d5f0ff28;
 }
 
 /* media queries */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .Layout {
     display: grid;
     grid-template-columns: 1fr;

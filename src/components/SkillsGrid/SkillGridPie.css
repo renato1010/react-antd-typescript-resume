@@ -5,7 +5,7 @@
 .SkillGrid {
   display: grid;
   grid-gap: 5px;
-  grid-template-columns: repeat(auto-fit, 12em);
+  grid-template-columns: repeat(auto-fit, minmax(8em, 10em));
   grid-template-rows: repeat(auto-fit, 80px);
   align-items: start;
   justify-content: start;
