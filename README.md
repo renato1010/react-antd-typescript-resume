@@ -1,8 +1,6 @@
 # Proyecto de experimentación utilizando ANTD React y TypeScript con CSS Grid exclusivamente
 
 
-## ANTD
-
 [ANTD](https://ant.design/) es un sistema de diseño y su objetivo es una mejor experiencia de usuario en
 aplicaciones corporativas.  Es un lenguaje de diseño
 
@@ -79,4 +77,4 @@ Pienso mejorar progresivamente este repo con:
 
 - Agregar Redux para controlar el Estado de la App y almacenar dicho estado en un backend
 - Convertir esta app en PWA (pregressive web app)  para cachear la mayor parte de los activos estaticos que se pueda instalar en la pantalla de un movil y posiblemente notificaciones
-- Service side rendering .... 🤔
+- Server side rendering .... 🤔
